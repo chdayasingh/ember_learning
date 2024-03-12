@@ -1,0 +1,14 @@
+{{! Parameterized component }}
+
+<div class="map">
+  <a href="{{this.url}}" target="_blank">
+    <img
+      alt="Map image at coordinates {{@lat}},{{@lng}}"
+      ...attributes
+      src="{{this.src}}"
+      width={{@width}}
+      height={{@height}}
+    />
+  </a>
+
+</div>
