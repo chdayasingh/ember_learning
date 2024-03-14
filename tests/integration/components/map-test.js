@@ -2,7 +2,7 @@ import { module, test } from 'qunit';
 import { setupRenderingTest } from 'ember-qunit';
 import { render, find } from '@ember/test-helpers';
 import { hbs } from 'ember-cli-htmlbars';
-import ENV from 'super-rentals/config/environment';
+import ENV from 'ember-learning/config/environment';
 
 module('Integration | Component | map', function(hooks) {
   setupRenderingTest(hooks);
